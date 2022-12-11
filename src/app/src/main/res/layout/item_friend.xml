@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="6dp"
+    android:paddingHorizontal="14dp"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv_avatar"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        tools:background="@color/black"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"/>
+
+    <TextView
+        android:id="@+id/tv_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#e3e3e5"
+        android:textSize="16sp"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/tv_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#e3e3e5"
+        android:textSize="16sp"
+        tools:text="LastName"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mBtn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#191919"
+        android:textAllCaps="false"
+        android:backgroundTint="#e2e3e7"
+        android:minHeight="0dp"
+        android:paddingVertical="6dp"
+        android:letterSpacing=".0"
+        app:rippleColor="@color/background"
+        style="@style/MyConfirmButtonStyle"/>
+
+</LinearLayout>
