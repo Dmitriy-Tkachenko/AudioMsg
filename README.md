@@ -20,4 +20,4 @@
 Спроектировал, задизайнил и разработал приложение, а так же подготовил документацию в объеме 87 часов.
 
 ## Отчет
-[Отчет](https://github.com/Dmitriy-Tkachenko/AudioMsg/blob/master/docs/%D0%9E%D1%82%D1%87%D0%B5%D1%82/%D0%9E%D1%82%D1%87%D0%B5%D1%82.docx?raw=true)
+[Отчет](https://github.com/Dmitriy-Tkachenko/AudioMsg/blob/master/docs/%D0%9E%D1%82%D1%87%D0%B5%D1%82.docx?raw=true)
